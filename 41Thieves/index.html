@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>41 thieves</title>
+	<link rel="stylesheet" href="style.css" media="screen"></link>
+	
+	<script type="text/javascript">	
+		var cardBackgroundArray = new Array();	
+		cardBackgroundArray.push('images/card_bg2.gif');	
+	</script>
+	
+	<script type="text/javascript" src="script.js"></script>
+	
+	<script type="text/javascript">
+		window.onload = initSolitaire;	
+	</script>
+	
+</head>
+<body>
+	<a href="#" onclick="resetGame();return false">New game</a>
+
+		<div id="bg_aces"></div>
+		
+		<div id="bg_thieves"></div>
+		
+		<div id="bg_freecells"></div>
+		
+		<div id="bg_deck">
+			<div id="deckCount"></div>
+			<div id="bg_deck_down"></div>
+			<div id="bg_deck_shown"></div>
+		</div>
+
+		<div id="movingCardContainer"></div>
+
+	
+</body>
+</html>

@@ -1,0 +1,95 @@
+	html{
+		width:100%;
+		height:100%;
+		margin:0px;
+		padding:0px;		
+	}
+	body{
+		background-color:#E2EBED;
+		width:100%;
+		height:100%;
+		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+		margin:0px;
+		padding:0px;
+	}
+	a{
+		color:#FF0000;
+		text-decoration:none;
+		padding:10px;
+	}
+	.card{
+		width:70px;
+		height:100px;		
+		background-color:#FFF;
+		padding-top:0px;	
+		padding-left:0px;	
+		position:absolute;
+		left:0px;
+		top:0px;
+		overflow:visible;
+		
+	}
+	
+	#bg_deck{
+		border: 1px solid red;
+		width:230px;
+		height:150px;
+		position:absolute;
+		left:20px;
+		top:20px;	
+	}
+	#deckCount{
+		width: 100%;
+		height: 20px;
+		position:absolute;
+		top:130px;
+		
+	}
+	#bg_deck_down{
+		width:70px;
+		height:100px;
+		left:30px;
+		top:22px;
+		position:absolute;
+		border:1px dotted #CCC;
+	}
+	#bg_deck_shown{
+		width:70px;
+		height:100px;
+		left:120px;
+		top:22px;
+		position:absolute;
+		border:1px dotted #CCC;
+	}
+	#bg_deck_shown div div{
+		margin-left:15px;
+	}
+	#bg_deck_shown div div div{
+		margin-left:30px;
+	}
+	#bg_aces{
+		width:900px;
+		height:150px;
+		position:absolute;
+		left:310px;
+		top:20px;	
+	}
+	#bg_freecells {
+		border:1px dashed black;
+		width:150px;
+		height:250px;
+		position:absolute;
+		left:1080px;
+		top:210px;
+	}
+	#bg_thieves{
+		width:1050px;
+		height:150px;
+		position:absolute;
+		left:15px;
+		top:210px;		
+	}
+	#movingCardContainer{
+		position:absolute;
+	}
+	
