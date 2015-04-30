@@ -12,6 +12,12 @@ app.controller('ProjectCtrl', ['$scope', '$window', function ($scope, $window) {
 		description : 'My version of the solitaire game 40 thieves, written in plain javascript',
 		git : 'true',
 		link : '41Thieves'
+	},
+	{
+		title : 'Umbrella',
+		description: 'Work in Progress',
+		git : false,
+		link : 'Umbrella'
 	}];
 
 	$scope.goToProject = function(index){

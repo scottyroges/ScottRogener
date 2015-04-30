@@ -1,0 +1,15 @@
+- User Sign up
+- User profile
+- User Types
+- Facebook login
+- Require me to accept all users before they can view site
+- Google maps of all the bars in the db
+- Create Checkin collection
+- Create aggregation services
+- Change the color of the bars based on the demographic
+
+
+
+test@test.com
+zbUCNKSt
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1M2M3NDg1ZjFlZDY4MGIzNTRiZjNkN2UifQ.AjIRIDYHLFF-wQLQjFf3yHQNGfdHotKR5sYDLmjRg5Q
